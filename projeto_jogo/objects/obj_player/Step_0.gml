@@ -72,7 +72,11 @@ if !move and last_key = "W"
 	sprite_index = idle_back
 }
 
-
+//Colisão 
+if (place_meeting(x + velh,y , obj_colisor))
+{
+	velh = 0
+}
 
 
 //if (!place_meeting()

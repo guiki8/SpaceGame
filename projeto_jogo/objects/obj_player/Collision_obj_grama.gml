@@ -2,9 +2,6 @@
 {
 	
 }*/
-vel = 0
-velh = 0
-velv = 2
 
 if  keyboard_check(ord("E"))
 {

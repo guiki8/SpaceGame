@@ -54,7 +54,6 @@
     {"id":{"name":"spr_lua_foreground2","path":"sprites/spr_lua_foreground2/spr_lua_foreground2.yy",},},
     {"id":{"name":"spr_lua_fundo","path":"sprites/spr_lua_fundo/spr_lua_fundo.yy",},},
     {"id":{"name":"spr_lua_fundo1","path":"sprites/spr_lua_fundo1/spr_lua_fundo1.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"walk_back","path":"sprites/walk_back/walk_back.yy",},},
     {"id":{"name":"walk_front","path":"sprites/walk_front/walk_front.yy",},},
     {"id":{"name":"walk_right","path":"sprites/walk_right/walk_right.yy",},},

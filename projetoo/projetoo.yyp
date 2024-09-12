@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"projeto_jogo",
+  "%Name":"projetoo",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -37,7 +37,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"projeto_jogo",
+  "name":"projetoo",
   "resources":[
     {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_grama","path":"objects/obj_grama/obj_grama.yy",},},

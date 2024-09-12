@@ -2,7 +2,7 @@ global.grama= 0
 
 //Definição da velocidade
 velh = 2
-velv = 2
+velv = 2	
 vel = 2
 move = false
 

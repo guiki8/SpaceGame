@@ -76,6 +76,17 @@ if !move and last_key = "W"
 if (place_meeting(x + velh,y , obj_colisor))
 {
 	velh = 0
+} else 
+{
+	velh = 2
+}
+
+if (place_meeting(x, y + velv, obj_colisor))
+{
+	velv = 0
+} else
+{
+	velv = 2
 }
 
 

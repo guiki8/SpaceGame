@@ -1,1 +1,3 @@
-move_towards_point(obj_player.x,obj_player.y,spd)
+
+x = obj_player.x
+y = obj_player.y + 50

@@ -1,123 +1,84 @@
 // Movimentação do Personagem
-var _dir = keyboard_check(ord("D"))
-var _esq = keyboard_check(ord("A"))
-var _baixo = keyboard_check(ord("S"))
-var _cima = keyboard_check(ord("W"))
+var _dir = keyboard_check(ord("D"));
+var _esq = keyboard_check(ord("A"));
+var _baixo = keyboard_check(ord("S"));
+var _cima = keyboard_check(ord("W"));
 
-move = false
-if keyboard_check(_dir)
-{
-	x += velh
-}
-if keyboard_check(_esq)
-{
-	x -= velh
-}
-if keyboard_check(_baixo)
-{
-	y += velv
-}
-if keyboard_check(_cima)
-{
-	y -= velv
-}
+// Definindo a velocidade de movimento
+var move_speed = 2;
 
+// Inicialização das variáveis de movimentação
+var move_x = 0;
+var move_y = 0;
+var move = false;
 
-//Matriz de sprite em movimento
-if keyboard_check(ord("D"))
-{
-	move = true
-	sprite_index = walk_right
-	image_xscale = 3
-	last_key = "D"
+// Atualiza as direções de movimento baseadas na entrada do teclado
+if (_dir) {
+    move_x = move_speed;
+    move = true;
+}
+if (_esq) {
+    move_x = -move_speed;
+    move = true;
+}
+if (_baixo) {
+    move_y = move_speed;
+    move = true;
+}
+if (_cima) {
+    move_y = -move_speed;
+    move = true;
 }
 
-if keyboard_check(ord("A"))
-{
-	move = true
-	sprite_index = walk_right
-	image_xscale = -3
-	last_key = "A"
-}
-if keyboard_check(ord("S"))
-{
-	move = true
-	sprite_index = walk_front
-	last_key = "S"
-}
-if keyboard_check(ord("W"))
-{
-	move = true
-	sprite_index = walk_back
-	last_key = "W"
-}
-
-//Matriz do sprite parado
-if !move and last_key = "D"
-{
-	sprite_index = idle_right
-	image_xscale = 3
-}
-if !move and last_key = "A"
-{
-	sprite_index = idle_right
-	image_xscale = -3
-}
-if !move and last_key = "S"
-{
-	sprite_index = idle_front
-}
-if !move and last_key = "W"
-{
-	sprite_index = idle_back
+// Atualiza o sprite baseado na direção de movimento
+if (move) {
+    if (_dir) {
+        sprite_index = walk_right;
+        image_xscale = 3;
+        last_key = "D";
+    }
+    if (_esq) {
+        sprite_index = walk_right;
+        image_xscale = -3;
+        last_key = "A";
+    }
+    if (_baixo) {
+        sprite_index = walk_front;
+        last_key = "S";
+    }
+    if (_cima) {
+        sprite_index = walk_back;
+        last_key = "W";
+    }
+} else {
+    if (last_key == "D") {
+        sprite_index = idle_right;
+        image_xscale = 3;
+    } else if (last_key == "A") {
+        sprite_index = idle_right;
+        image_xscale = -3;
+    } else if (last_key == "S") {
+        sprite_index = idle_front;
+    } else if (last_key == "W") {
+        sprite_index = idle_back;
+    }
 }
 
-//Colisão 
-if (place_meeting(x + velh,y , obj_colisor))
-{
-	velh = 0
-} else 
-{
-	velh = 2
+// Colisão e movimentação
+var new_x = x + move_x;
+var new_y = y + move_y;
+
+// Verifica colisão horizontal
+if (!place_meeting(new_x, y, obj_colisor)) {
+    x = new_x;
 }
 
-if (place_meeting(x, y + velv, obj_colisor))
-{
-	velv = 0
-} else
-{
-	velv = 2
+// Verifica colisão vertical
+if (!place_meeting(x, new_y, obj_colisor)) {
+    y = new_y;
 }
 
-
-//if (!place_meeting()
-
-
-
-
-//if place_meeting(x,y,obj_grama))
-/*var dir,esq
-
-dir = keyboard_check(ord("D"))
-esq = keyboard_check(ord("A"))
-
-velo_h = (dir - esq) * velo_h
-velo_v = (baixo - cima) * vel
-
-if (place_meeting(x + velo_h, y, obj_colisor))
-{
-	while(!place_meeting(x + sign(velo_h), y, obj_colisor))
-	{
-		x+= sign(velo_h)
-	}
-	velo_h = 0;
-}
-
-if (place_meeting(x, y + velo_v, obj_colisor))
-{
-	while(!place_meeting(x, y + sign(velo_v),obj_colisor))
-	{
-		y += sign(velo_v);
-	}
-	velo_v = 0;
-}
+// Reseta as variáveis de movimento
+move_x = 0;
+move_y = 0;
+move = false;

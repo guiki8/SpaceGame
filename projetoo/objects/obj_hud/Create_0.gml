@@ -13,3 +13,5 @@ background_layer_1 = layer_get_id("Background_1");
 background_layer_2 = layer_get_id("Background_2");
 background_layer_3 = layer_get_id("Background_4");
 background_layer_4 = layer_get_id("Background_5");
+	
+depth = -15

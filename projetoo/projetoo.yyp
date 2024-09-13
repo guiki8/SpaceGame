@@ -35,7 +35,9 @@
     {"$GMFolder":"","%Name":"Idle","folderPath":"folders/Sprites/player/Idle.yy","name":"Idle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walking","folderPath":"folders/Sprites/player/Walking.yy","name":"Walking","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Pixel.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Pixel.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -43,6 +45,7 @@
   },
   "name":"projetoo",
   "resources":[
+    {"id":{"name":"Fonte1","path":"fonts/Fonte1/Fonte1.yy",},},
     {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_foguete","path":"objects/obj_foguete/obj_foguete.yy",},},

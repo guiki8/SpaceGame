@@ -7,8 +7,5 @@ if  keyboard_check(ord("E"))
 {
 	global.grama += 1
 	instance_destroy(obj_grama)
-	vel = 2
-	velh = 2
-	velv = 2
 }
 

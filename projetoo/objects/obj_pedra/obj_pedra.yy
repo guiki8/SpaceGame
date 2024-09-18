@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grama",
+  "%Name":"obj_pedra",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_grama",
+  "name":"obj_pedra",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_grama",
-    "path":"sprites/spr_grama/spr_grama.yy",
+    "name":"rock_medium",
+    "path":"sprites/rock_medium/rock_medium.yy",
   },
   "spriteMaskId":null,
   "visible":true,

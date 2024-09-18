@@ -6,6 +6,6 @@
 if  keyboard_check(ord("E"))
 {
 	global.grama += 1
-	instance_destroy(obj_grama)
+	instance_destroy(obj_pedra)
 }
 

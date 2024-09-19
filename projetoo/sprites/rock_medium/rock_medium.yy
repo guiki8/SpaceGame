@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"decoracoes",
-    "path":"folders/Sprites/decoracoes.yy",
+    "name":"pedras",
+    "path":"folders/Sprites/decoracoes/pedras.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

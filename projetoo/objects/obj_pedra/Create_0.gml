@@ -1,1 +1,0 @@
-pedra_acima = false

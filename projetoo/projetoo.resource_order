@@ -29,7 +29,6 @@
   "ResourceOrderSettings":[
     {"name":"obj_coletavel","order":8,"path":"objects/obj_coletavel/obj_coletavel.yy",},
     {"name":"obj_colisor","order":3,"path":"objects/obj_colisor/obj_colisor.yy",},
-    {"name":"obj_cutscene","order":7,"path":"objects/obj_cutscene/obj_cutscene.yy",},
     {"name":"obj_foguete","order":6,"path":"objects/obj_foguete/obj_foguete.yy",},
     {"name":"obj_hud","order":2,"path":"objects/obj_hud/obj_hud.yy",},
     {"name":"obj_lua_chao","order":4,"path":"objects/obj_lua_chao/obj_lua_chao.yy",},
@@ -40,6 +39,7 @@
     {"name":"rock_small","order":1,"path":"sprites/rock_small/rock_small.yy",},
     {"name":"spr_coletavel","order":1,"path":"sprites/spr_coletavel/spr_coletavel.yy",},
     {"name":"spr_colisao","order":5,"path":"sprites/spr_colisao/spr_colisao.yy",},
+    {"name":"spr_foguete_parado","order":4,"path":"sprites/spr_foguete_parado/spr_foguete_parado.yy",},
     {"name":"spr_lua_chao","order":2,"path":"sprites/spr_lua_chao/spr_lua_chao.yy",},
     {"name":"spr_lua_foreground1","order":3,"path":"sprites/spr_lua_foreground1/spr_lua_foreground1.yy",},
     {"name":"spr_lua_foreground2","order":4,"path":"sprites/spr_lua_foreground2/spr_lua_foreground2.yy",},

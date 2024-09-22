@@ -1,6 +1,19 @@
+//Layer (Player na frente ou atrás)
+if y < obj_player.y and pedra_acima = false{
+	depth = -3
+	pedra_acima = true
+} else if  y > obj_player.y and pedra_acima = true{
+	depth = -6
+	pedra_acima = false
+}
+
 #region cutscene direita 
-if (cutscene_direita = true)
-	{
+if (cutscene_direita = true) {
+		obj_player.x = x // Posição do player = posição do foguete
+		obj_player.y = y
+		obj_player.image_alpha = 0 // Player fica invisível
+		obj_sombra.image_alpha = 0 // Sombra fica insisível
+	
 		tempo_cutscene += 1; //incrementa o tempo da cutscene
 		//enquanto a cutscene está nos primeiros 2 segundos, o objeto se move para a direita
 		if (tempo_cutscene <= duracao_cutscene)
@@ -22,8 +35,10 @@ if (cutscene_direita = true)
 #endregion
 
 #region rotacao
-if (rotacionando = true) 
-{
+if (rotacionando = true) {
+	obj_player.x = x
+	obj_player.y = y
+	
 	if (image_angle < angulo_final)
 	{
 		image_angle += angulo_incremento; //rotaciona o objeto aos poucos
@@ -38,6 +53,9 @@ if (rotacionando = true)
 
 #region cutscene para baixo 
 if (movendo_para_baixo = true) {
+	obj_player.x = x // Posição do player = posição do foguete
+	obj_player.y = y
+	
 	sprite_index = spr_foguete_pousando
     tempo_movimento_baixo += 1;
 
@@ -52,6 +70,13 @@ if (movendo_para_baixo = true) {
         movendo_para_baixo = false; // Finaliza o movimento
         show_debug_message("O objeto parou de se mover para baixo.");
 		sprite_index = spr_foguete_parado
+		
+		x += 5 //Reposiciona x por causa do centro da hitbox ser diferente
+		y += 180 //Reposiciona y por causa do centro da hitbox ser diferente
+		obj_player.x = x-5 // Player sai da nave
+		obj_player.y = y+40
+		obj_player.image_alpha = 1 // Player fica visível
+		obj_sombra.image_alpha = 1 // Sombra fica visível
 		
     }
 }

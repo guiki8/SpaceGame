@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"projetoo",
   "resources":[
@@ -56,7 +56,9 @@
     {"id":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_sombra","path":"objects/obj_sombra/obj_sombra.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
+    {"id":{"name":"rm_lua","path":"rooms/rm_lua/rm_lua.yy",},},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"idle_back","path":"sprites/idle_back/idle_back.yy",},},
     {"id":{"name":"idle_front","path":"sprites/idle_front/idle_front.yy",},},
     {"id":{"name":"idle_right","path":"sprites/idle_right/idle_right.yy",},},
@@ -73,7 +75,8 @@
     {"id":{"name":"spr_lua_fundo","path":"sprites/spr_lua_fundo/spr_lua_fundo.yy",},},
     {"id":{"name":"spr_lua_fundo1","path":"sprites/spr_lua_fundo1/spr_lua_fundo1.yy",},},
     {"id":{"name":"spr_sombra","path":"sprites/spr_sombra/spr_sombra.yy",},},
-    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
+    {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},},
+    {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
     {"id":{"name":"walk_back","path":"sprites/walk_back/walk_back.yy",},},
     {"id":{"name":"walk_front","path":"sprites/walk_front/walk_front.yy",},},
     {"id":{"name":"walk_right","path":"sprites/walk_right/walk_right.yy",},},
@@ -81,7 +84,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_lua","path":"rooms/rm_lua/rm_lua.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

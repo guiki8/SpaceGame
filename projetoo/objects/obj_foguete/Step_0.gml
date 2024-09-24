@@ -1,4 +1,5 @@
 //Layer (Player na frente ou atrás)
+if instance_exists(obj_player){
 if y < obj_player.y and pedra_acima = false{
 	depth = -3
 	pedra_acima = true
@@ -6,9 +7,12 @@ if y < obj_player.y and pedra_acima = false{
 	depth = -6
 	pedra_acima = false
 }
+}
 
 #region cutscene direita 
-if (cutscene_direita = true) {
+if (room = rm_lua)
+{
+	if (cutscene_direita = true) {
 		obj_player.x = x // Posição do player = posição do foguete
 		obj_player.y = y
 		obj_player.image_alpha = 0 // Player fica invisível
@@ -32,6 +36,7 @@ if (cutscene_direita = true) {
 		}
 		}
 	}
+
 #endregion
 
 #region rotacao
@@ -79,4 +84,5 @@ if (movendo_para_baixo = true) {
 		obj_sombra.image_alpha = 1 // Sombra fica visível
 		
     }
+}
 }

@@ -1,0 +1,1 @@
+global.iniciar = true

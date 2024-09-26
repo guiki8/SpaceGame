@@ -92,15 +92,9 @@ if (movendo_para_baixo == true) {
         obj_sombra.image_alpha = 1; // Sombra fica visível
     }
 }
-<<<<<<< HEAD
-#endregion
-=======
-}
-#endregion
 
 #region entrar
 if place_meeting(x+10, y+10, obj_player) and keyboard_check(ord("E")) {
     room_goto(rm_foguete);
 }
 #endregion
->>>>>>> bece96c33d8924c79a087b3a4eb99bc4a509fa50

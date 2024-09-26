@@ -86,3 +86,10 @@ if (movendo_para_baixo = true) {
     }
 }
 }
+#endregion
+
+#region entrar
+if place_meeting(x+10, y+10, obj_player) and keyboard_check(ord("E")) {
+    room_goto(rm_foguete);
+}
+#endregion

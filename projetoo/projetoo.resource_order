@@ -35,6 +35,7 @@
     {"name":"obj_pedra","order":1,"path":"objects/obj_pedra/obj_pedra.yy",},
     {"name":"obj_sombra","order":5,"path":"objects/obj_sombra/obj_sombra.yy",},
     {"name":"obj_start","order":9,"path":"objects/obj_start/obj_start.yy",},
+    {"name":"rm_foguete","order":2,"path":"rooms/rm_foguete/rm_foguete.yy",},
     {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
     {"name":"idle_back","order":1,"path":"sprites/idle_back/idle_back.yy",},
     {"name":"idle_right","order":2,"path":"sprites/idle_right/idle_right.yy",},

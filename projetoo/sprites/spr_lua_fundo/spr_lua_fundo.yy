@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_lua_fundo",
   "bboxMode":0,
-  "bbox_bottom":1079,
+  "bbox_bottom":2159,
   "bbox_left":0,
   "bbox_right":1919,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1080,
+  "height":2160,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"19ddcc5b-2087-4203-bf4f-fccbc6677849","blendMode":0,"displayName":"default","isLocked":false,"name":"19ddcc5b-2087-4203-bf4f-fccbc6677849","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

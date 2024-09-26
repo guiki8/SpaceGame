@@ -1,4 +1,4 @@
 global.iniciar = false
-velocidade = 5
+velocidade = 8
 contador = 0
-tempo = 180
+tempo = 120

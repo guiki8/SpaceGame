@@ -57,6 +57,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_sombra","path":"objects/obj_sombra/obj_sombra.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
+    {"id":{"name":"rm_foguete","path":"rooms/rm_foguete/rm_foguete.yy",},},
     {"id":{"name":"rm_lua","path":"rooms/rm_lua/rm_lua.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"idle_back","path":"sprites/idle_back/idle_back.yy",},},
@@ -86,6 +87,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_lua","path":"rooms/rm_lua/rm_lua.yy",},},
+    {"roomId":{"name":"rm_foguete","path":"rooms/rm_foguete/rm_foguete.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

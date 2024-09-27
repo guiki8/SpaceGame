@@ -4,22 +4,33 @@ var _esq = keyboard_check(ord("A"));
 var _baixo = keyboard_check(ord("S"));
 var _cima = keyboard_check(ord("W"));
 
+// Variáveis de movimento
+move_x = 0;
+move_y = 0;
+
 // Atualiza as direções de movimento baseadas na entrada do teclado
-if (_dir = true) {
-    move_x = move_speed;
+if (_dir) {
+    move_x += 1;
     move = true;
 }
-if (_esq = true) {
-    move_x = -move_speed;
+if (_esq) {
+    move_x -= 1;
     move = true;
 }
-if (_baixo = true) {
-    move_y = move_speed;
+if (_baixo) {
+    move_y += 1;
     move = true;
 }
-if (_cima = true) {
-    move_y = -move_speed;
+if (_cima) {
+    move_y -= 1;
     move = true;
+}
+
+// Normaliza o movimento para evitar que o jogador ande mais rápido na diagonal
+var length = point_distance(0, 0, move_x, move_y);
+if (length > 0) {
+    move_x = (move_x / length) * move_speed;
+    move_y = (move_y / length) * move_speed;
 }
 
 // Atualiza o sprite baseado na direção de movimento
@@ -74,4 +85,3 @@ if (!place_meeting(x, new_y, obj_colisor)) {
 move_x = 0;
 move_y = 0;
 move = false;
-

@@ -8,7 +8,7 @@ if instance_exists(obj_player) {
         pedra_acima = false;
     }
 }
-
+/*
 #region cutscene direita 
 if (room == rm_lua) {
     if (cutscene_direita == true) {
@@ -52,17 +52,22 @@ if (rotacionando == true) {
     }
 }
 #endregion
-
+*/
 #region cutscene para baixo 
-if (movendo_para_baixo == true) {
+
+if (room = rm_lua and movendo_para_baixo == true) {
+	
     obj_player.x = x; // Posição do player = posição do foguete
     obj_player.y = y;
+	
+	obj_player.image_alpha = 0; // Player fica invisível
+    obj_sombra.image_alpha = 0; // Sombra fica invisível
     
     // Calcula o tempo restante do movimento para baixo
     tempo_restante = duracao_movimento_baixo - tempo_movimento_baixo;
 
     // Se faltam menos de 2 segundos (120 frames) para o pouso, muda para spr_foguete_pousando
-    if (tempo_restante <= 100) {
+    if (tempo_restante <= 60) {
         sprite_index = spr_foguete_pousando;
     } else {
         sprite_index = spr_foguete_voando;

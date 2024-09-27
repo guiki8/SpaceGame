@@ -4,28 +4,20 @@ var _esq = keyboard_check(ord("A"));
 var _baixo = keyboard_check(ord("S"));
 var _cima = keyboard_check(ord("W"));
 
-// Definindo a velocidade de movimento
-var move_speed = 2;
-
-// Inicialização das variáveis de movimentação
-var move_x = 0;
-var move_y = 0;
-var move = false;
-
 // Atualiza as direções de movimento baseadas na entrada do teclado
-if (_dir) {
+if (_dir = true) {
     move_x = move_speed;
     move = true;
 }
-if (_esq) {
+if (_esq = true) {
     move_x = -move_speed;
     move = true;
 }
-if (_baixo) {
+if (_baixo = true) {
     move_y = move_speed;
     move = true;
 }
-if (_cima) {
+if (_cima = true) {
     move_y = -move_speed;
     move = true;
 }
@@ -82,3 +74,4 @@ if (!place_meeting(x, new_y, obj_colisor)) {
 move_x = 0;
 move_y = 0;
 move = false;
+

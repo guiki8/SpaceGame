@@ -1,3 +1,12 @@
+// Definindo a velocidade de movimento
+move_speed = 2;
+
+// Inicialização das variáveis de movimentação
+move_x = 0;
+move_y = 0;
+move = false;
+
+
 global.grama= 0
 
 //Definição da velocidade

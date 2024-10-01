@@ -1,4 +1,4 @@
-// Movimentação do Personagem
+#region Movimentação do Personagem
 var _dir = keyboard_check(ord("D"));
 var _esq = keyboard_check(ord("A"));
 var _baixo = keyboard_check(ord("S"));
@@ -7,6 +7,7 @@ var _cima = keyboard_check(ord("W"));
 // Variáveis de movimento
 move_x = 0;
 move_y = 0;
+
 
 // Atualiza as direções de movimento baseadas na entrada do teclado
 if (_dir) {
@@ -25,7 +26,8 @@ if (_cima) {
     move_y -= 1;
     move = true;
 }
-
+#endregion
+#region Mudança dos sprites
 // Normaliza o movimento para evitar que o jogador ande mais rápido na diagonal
 var length = point_distance(0, 0, move_x, move_y);
 if (length > 0) {
@@ -66,8 +68,8 @@ if (move) {
         sprite_index = idle_back;
     }
 }
-
-// Colisão e movimentação
+#endregion
+#region Colisão e movimentação
 var new_x = x + move_x;
 var new_y = y + move_y;
 
@@ -80,7 +82,7 @@ if (!place_meeting(new_x, y, obj_colisor)) {
 if (!place_meeting(x, new_y, obj_colisor)) {
     y = new_y;
 }
-
+#endregion
 // Reseta as variáveis de movimento
 move_x = 0;
 move_y = 0;

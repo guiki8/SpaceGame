@@ -24,6 +24,7 @@
     {"name":"pousando","order":2,"path":"folders/Sprites/foguete/pousando.yy",},
     {"name":"voando","order":3,"path":"folders/Sprites/foguete/voando.yy",},
     {"name":"player","order":2,"path":"folders/Sprites/player.yy",},
+    {"name":"Coletando","order":3,"path":"folders/Sprites/player/Coletando.yy",},
     {"name":"Idle","order":1,"path":"folders/Sprites/player/Idle.yy",},
   ],
   "ResourceOrderSettings":[
@@ -40,6 +41,7 @@
     {"name":"idle_back","order":1,"path":"sprites/idle_back/idle_back.yy",},
     {"name":"idle_right","order":2,"path":"sprites/idle_right/idle_right.yy",},
     {"name":"rock_small","order":1,"path":"sprites/rock_small/rock_small.yy",},
+    {"name":"spr_coletar","order":1,"path":"sprites/spr_coletar/spr_coletar.yy",},
     {"name":"spr_coletavel","order":1,"path":"sprites/spr_coletavel/spr_coletavel.yy",},
     {"name":"spr_colisao","order":5,"path":"sprites/spr_colisao/spr_colisao.yy",},
     {"name":"spr_foguete_parado","order":4,"path":"sprites/spr_foguete_parado/spr_foguete_parado.yy",},
@@ -49,7 +51,6 @@
     {"name":"spr_lua_fundo1","order":1,"path":"sprites/spr_lua_fundo1/spr_lua_fundo1.yy",},
     {"name":"spr_sombra","order":2,"path":"sprites/spr_sombra/spr_sombra.yy",},
     {"name":"spr_start","order":16,"path":"sprites/spr_start/spr_start.yy",},
-    {"name":"Sprite21","order":10,"path":"sprites/Sprite21/Sprite21.yy",},
     {"name":"walk_back","order":1,"path":"sprites/walk_back/walk_back.yy",},
     {"name":"walk_right","order":2,"path":"sprites/walk_right/walk_right.yy",},
   ],

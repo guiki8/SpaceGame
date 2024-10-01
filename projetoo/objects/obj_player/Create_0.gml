@@ -7,7 +7,7 @@ move_y = 0;
 move = false;
 
 
-global.grama= 0
+global.minerios= 0
 
 //Definição da velocidade
 velh = 2

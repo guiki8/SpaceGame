@@ -87,3 +87,8 @@ if (!place_meeting(x, new_y, obj_colisor)) {
 move_x = 0;
 move_y = 0;
 move = false;
+
+if global.minerando = true {
+	sprite_index = spr_mining
+	show_debug_message("Minerando")
+}

@@ -20,3 +20,5 @@ last_key = "S"
 
 //Posicionameto na tela (Quanto menor mais na frente dos outros objetos)
 depth = -5
+
+global.minerando = false

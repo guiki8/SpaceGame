@@ -8,7 +8,6 @@ var _cima = keyboard_check(ord("W"));
 move_x = 0;
 move_y = 0;
 
-
 // Atualiza as direções de movimento baseadas na entrada do teclado
 if (_dir) {
     move_x += 1;
@@ -88,7 +87,14 @@ move_x = 0;
 move_y = 0;
 move = false;
 
-if global.minerando = true {
-	sprite_index = spr_mining
-	show_debug_message("Minerando")
+// Lógica de mineração
+if (global.minerando) {
+    timer_minerando += 1;
+    
+    if (timer_minerando > 120) {
+        sprite_index = idle_right; // Ou o sprite que desejar para quando a mineração terminar
+        global.minerando = false;
+    } else {
+        sprite_index = spr_mining; // Mantém o sprite de mineração durante o tempo de mineração
+    }
 }

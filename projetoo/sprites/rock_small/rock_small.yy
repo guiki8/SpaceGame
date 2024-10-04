@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"pedras",
-    "path":"folders/Sprites/decoracoes/pedras.yy",
+    "path":"folders/Sprites/minerios/pedras.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

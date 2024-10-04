@@ -6,10 +6,13 @@ if (y < obj_player.y and !pedra_acima) {
     depth = -6;
     pedra_acima = false;
 }
+#endregion
 
-
+#region Mecãnica de Coletar
 if (distance_to_object(obj_player) < 16 and keyboard_check_pressed(ord("E"))) {
-    global.minerando = true;
+    
+	obj_player.y = obj_pedra_grande.y + 10
+	global.minerando = true;
 	timer_minerando = 0;
 	obj_player.sprite_index = spr_mining;
     show_debug_message("E");
@@ -17,11 +20,13 @@ if (distance_to_object(obj_player) < 16 and keyboard_check_pressed(ord("E"))) {
 
 if global.minerando {
     obj_player.sprite_index = spr_mining;
-
     timer_minerando += 1;
+	image_xscale -= 0.01
+	image_yscale -= 0.01
 
     if timer_minerando > 120 {
-        self.sprite_index = rock_small;
+        instance_change(obj_pedra_pequena, true)
         global.minerando = false;
     }
 }
+#endregion

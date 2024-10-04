@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pedra",
+  "%Name":"obj_pedra_pequena",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pedra",
+  "name":"obj_pedra_pequena",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"rock_medium",
-    "path":"sprites/rock_medium/rock_medium.yy",
+    "name":"rock_small",
+    "path":"sprites/rock_small/rock_small.yy",
   },
   "spriteMaskId":null,
   "visible":true,

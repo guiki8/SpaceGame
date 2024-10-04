@@ -23,7 +23,7 @@
   ],
   "name":"rock_small",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"pedras",
     "path":"folders/Sprites/decoracoes/pedras.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":20,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

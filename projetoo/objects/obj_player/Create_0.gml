@@ -22,4 +22,3 @@ last_key = "S"
 depth = -5
 
 global.minerando = false
-timer_minerando = 0 //

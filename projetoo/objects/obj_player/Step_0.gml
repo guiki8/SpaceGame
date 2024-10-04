@@ -54,7 +54,7 @@ if (move) {
         sprite_index = walk_back;
         last_key = "W";
     }
-} else {
+} else if !global.minerando{
     if (last_key == "D") {
         sprite_index = idle_right;
         image_xscale = 3;
@@ -86,15 +86,3 @@ if (!place_meeting(x, new_y, obj_colisor)) {
 move_x = 0;
 move_y = 0;
 move = false;
-
-// Lógica de mineração
-if (global.minerando) {
-    timer_minerando += 1;
-    
-    if (timer_minerando > 120) {
-        sprite_index = idle_right; // Ou o sprite que desejar para quando a mineração terminar
-        global.minerando = false;
-    } else {
-        sprite_index = spr_mining; // Mantém o sprite de mineração durante o tempo de mineração
-    }
-}

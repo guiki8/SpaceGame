@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object14",
-  "eventList":[],
+  "%Name":"obj_tela_minerios",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object14",
+  "name":"obj_tela_minerios",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_tela_minerios",
+    "path":"sprites/spr_tela_minerios/spr_tela_minerios.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

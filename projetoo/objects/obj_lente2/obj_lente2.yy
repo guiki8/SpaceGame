@@ -10,8 +10,8 @@
   "name":"obj_lente2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utensílios",
-    "path":"folders/Objetos/Utensílios.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

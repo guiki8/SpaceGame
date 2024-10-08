@@ -26,8 +26,8 @@
   ],
   "name":"rm_microscopio",
   "parent":{
-    "name":"Foguete",
-    "path":"folders/Cenas/Foguete.yy",
+    "name":"Cenas",
+    "path":"folders/Cenas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

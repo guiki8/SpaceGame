@@ -10,8 +10,8 @@
   "name":"obj_rock_very_small",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pedras",
-    "path":"folders/Objetos/Pedras.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

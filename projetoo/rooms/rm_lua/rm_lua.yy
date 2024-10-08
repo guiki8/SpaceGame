@@ -11,24 +11,11 @@
     {"name":"inst_34FC4EFD","path":"rooms/rm_lua/rm_lua.yy",},
     {"name":"inst_31AEFA1E","path":"rooms/rm_lua/rm_lua.yy",},
     {"name":"inst_38D1D5A1","path":"rooms/rm_lua/rm_lua.yy",},
-<<<<<<< HEAD
-    {"name":"inst_11B2A4E4","path":"rooms/rm_lua/rm_lua.yy",},
-    {"name":"inst_2DBDF6D","path":"rooms/rm_lua/rm_lua.yy",},
-    {"name":"inst_7D13330F","path":"rooms/rm_lua/rm_lua.yy",},
-<<<<<<< Updated upstream
-    {"name":"inst_67B2DFF8","path":"rooms/rm_lua/rm_lua.yy",},
-    {"name":"inst_4826EE18","path":"rooms/rm_lua/rm_lua.yy",},
-=======
-    {"name":"inst_5554519C","path":"rooms/rm_lua/rm_lua.yy",},
-    {"name":"inst_6E2E7EA8","path":"rooms/rm_lua/rm_lua.yy",},
->>>>>>> Stashed changes
-=======
     {"name":"inst_4C9775D1","path":"rooms/rm_lua/rm_lua.yy",},
     {"name":"inst_11B2A4E4","path":"rooms/rm_lua/rm_lua.yy",},
     {"name":"inst_2DBDF6D","path":"rooms/rm_lua/rm_lua.yy",},
     {"name":"inst_7D13330F","path":"rooms/rm_lua/rm_lua.yy",},
     {"name":"inst_39D8A4BC","path":"rooms/rm_lua/rm_lua.yy",},
->>>>>>> d20af8ad56bf1a91667c8090bdbf395dd57338bc
   ],
   "isDnd":false,
   "layers":[
@@ -38,25 +25,11 @@
         {"$GMRInstance":"v1","%Name":"inst_34FC4EFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34FC4EFD","objectId":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":30.0,"scaleY":1.0,"x":0.0,"y":1536.0,},
         {"$GMRInstance":"v1","%Name":"inst_31AEFA1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31AEFA1E","objectId":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":30.0,"scaleY":1.0,"x":0.0,"y":2112.0,},
         {"$GMRInstance":"v1","%Name":"inst_38D1D5A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38D1D5A1","objectId":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.0,"x":0.0,"y":1600.0,},
-<<<<<<< HEAD
-        {"$GMRInstance":"v1","%Name":"inst_11B2A4E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11B2A4E4","objectId":{"name":"obj_foguete","path":"objects/obj_foguete/obj_foguete.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":160.0,"y":704.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2DBDF6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DBDF6D","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":400.0,"y":1680.0,},
-<<<<<<< Updated upstream
-        {"$GMRInstance":"v1","%Name":"inst_7D13330F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13330F","objectId":{"name":"obj_pedra_grande","path":"objects/obj_pedra_grande/obj_pedra_grande.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":976.0,"y":1828.0,},
-        {"$GMRInstance":"v1","%Name":"inst_67B2DFF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67B2DFF8","objectId":{"name":"obj_troca_room","path":"objects/obj_troca_room/obj_troca_room.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.0,"x":1984.0,"y":1600.0,},
-        {"$GMRInstance":"v1","%Name":"inst_4826EE18","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4826EE18","objectId":{"name":"obj_pedra_grande","path":"objects/obj_pedra_grande/obj_pedra_grande.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":768.0,"y":1888.0,},
-=======
-        {"$GMRInstance":"v1","%Name":"inst_7D13330F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13330F","objectId":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":976.0,"y":1828.0,},
-        {"$GMRInstance":"v1","%Name":"inst_5554519C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5554519C","objectId":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":1216.0,"y":1792.0,},
-        {"$GMRInstance":"v1","%Name":"inst_6E2E7EA8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E2E7EA8","objectId":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":768.0,"y":1888.0,},
->>>>>>> Stashed changes
-=======
         {"$GMRInstance":"v1","%Name":"inst_4C9775D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C9775D1","objectId":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.0,"x":1856.0,"y":1600.0,},
         {"$GMRInstance":"v1","%Name":"inst_11B2A4E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11B2A4E4","objectId":{"name":"obj_foguete","path":"objects/obj_foguete/obj_foguete.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":160.0,"y":704.0,},
         {"$GMRInstance":"v1","%Name":"inst_2DBDF6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DBDF6D","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":400.0,"y":1680.0,},
         {"$GMRInstance":"v1","%Name":"inst_7D13330F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13330F","objectId":{"name":"obj_pedra_grande","path":"objects/obj_pedra_grande/obj_pedra_grande.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":384.0,"y":1920.0,},
         {"$GMRInstance":"v1","%Name":"inst_39D8A4BC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39D8A4BC","objectId":{"name":"obj_pedra_grande","path":"objects/obj_pedra_grande/obj_pedra_grande.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":672.0,"y":1920.0,},
->>>>>>> d20af8ad56bf1a91667c8090bdbf395dd57338bc
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background_5","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":-10,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_5","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_lua_foreground2","path":"sprites/spr_lua_foreground2/spr_lua_foreground2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":1080,},
     {"$GMRBackgroundLayer":"","%Name":"Background_4","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":-9,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_4","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_lua_foreground1","path":"sprites/spr_lua_foreground1/spr_lua_foreground1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":1080,},
@@ -66,8 +39,8 @@
   ],
   "name":"rm_lua",
   "parent":{
-    "name":"Lua",
-    "path":"folders/Cenas/Lua.yy",
+    "name":"Cenas",
+    "path":"folders/Cenas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

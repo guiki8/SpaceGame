@@ -6,11 +6,12 @@ if (distance_to_object(obj_player) <16 and keyboard_check(ord("E"))) {
 if coletando {
 	obj_player.sprite_index = spr_coletar;
     timer_coletando += 1;
-
 }
 
 
 if timer_coletando > 30 {
-     instance_destroy()
-     coletando = false;
+	coletando = false;
+	global.minerios = 1
+	show_debug_message("Minerios = 1")
+	instance_destroy()
 }

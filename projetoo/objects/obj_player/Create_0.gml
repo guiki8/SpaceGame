@@ -6,9 +6,6 @@ move_x = 0;
 move_y = 0;
 move = false;
 
-
-global.minerios= 0
-
 //Definição da velocidade
 velh = 2
 velv = 2	

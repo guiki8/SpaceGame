@@ -11,7 +11,7 @@ if (y < obj_player.y and !pedra_acima) {
 #region Mecãnica de Coletar
 if (distance_to_object(obj_player) < 16 and keyboard_check_pressed(ord("E"))) {
     
-	obj_player.y = y + 10
+	obj_player.y = obj_pedra_pequena.y + 10
 	global.minerando = true;
 	timer_minerando = 0;
 }

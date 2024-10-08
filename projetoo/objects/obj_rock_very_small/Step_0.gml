@@ -11,7 +11,14 @@ if coletando {
 
 if timer_coletando > 30 {
 	coletando = false;
-	global.minerios = 1
-	show_debug_message("Minerios = 1")
+	if global.minerios == 0{
+		global.minerios = 1
+		show_debug_message("Minerios = 1")
+		mostrar_mensagem = true;
+		tempo_mensagem = 240
+	} else if global.minerios == 1{
+		global.minerios = 2
+		show_debug_message("Minerios = 2")
+	}
 	instance_destroy()
 }

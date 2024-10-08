@@ -36,10 +36,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Fonte2","order":1,"path":"fonts/Fonte2/Fonte2.yy",},
-    {"name":"obj_botaoverde","order":14,"path":"objects/obj_botaoverde/obj_botaoverde.yy",},
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_colisor","order":3,"path":"objects/obj_colisor/obj_colisor.yy",},
     {"name":"obj_foguete","order":6,"path":"objects/obj_foguete/obj_foguete.yy",},
+    {"name":"obj_fragmento_anortosito","order":25,"path":"objects/obj_fragmento_anortosito/obj_fragmento_anortosito.yy",},
     {"name":"obj_fragmento_regolito","order":22,"path":"objects/obj_fragmento_regolito/obj_fragmento_regolito.yy",},
     {"name":"obj_hud","order":13,"path":"objects/obj_hud/obj_hud.yy",},
     {"name":"obj_lente1","order":2,"path":"objects/obj_lente1/obj_lente1.yy",},
@@ -48,13 +48,21 @@
     {"name":"obj_microscopio","order":1,"path":"objects/obj_microscopio/obj_microscopio.yy",},
     {"name":"obj_pedra_pequena","order":1,"path":"objects/obj_pedra_pequena/obj_pedra_pequena.yy",},
     {"name":"obj_rock_unlock","order":21,"path":"objects/obj_rock_unlock/obj_rock_unlock.yy",},
+<<<<<<< HEAD
     {"name":"obj_rock_very_small","order":2,"path":"objects/obj_rock_very_small/obj_rock_very_small.yy",},
+=======
+    {"name":"obj_rock_unlock2","order":23,"path":"objects/obj_rock_unlock2/obj_rock_unlock2.yy",},
+    {"name":"obj_rock_very_small","order":10,"path":"objects/obj_rock_very_small/obj_rock_very_small.yy",},
+>>>>>>> d20af8ad56bf1a91667c8090bdbf395dd57338bc
     {"name":"obj_slot1","order":19,"path":"objects/obj_slot1/obj_slot1.yy",},
-    {"name":"obj_slot2","order":20,"path":"objects/obj_slot2/obj_slot2.yy",},
+    {"name":"obj_slot2","order":24,"path":"objects/obj_slot2/obj_slot2.yy",},
     {"name":"obj_sombra","order":5,"path":"objects/obj_sombra/obj_sombra.yy",},
     {"name":"obj_start","order":8,"path":"objects/obj_start/obj_start.yy",},
+<<<<<<< HEAD
     {"name":"obj_tela_minerios","order":15,"path":"objects/obj_tela_minerios/obj_tela_minerios.yy",},
     {"name":"obj_troca_room","order":25,"path":"objects/obj_troca_room/obj_troca_room.yy",},
+=======
+>>>>>>> d20af8ad56bf1a91667c8090bdbf395dd57338bc
     {"name":"obj_voltar","order":16,"path":"objects/obj_voltar/obj_voltar.yy",},
     {"name":"rm_frascos","order":1,"path":"rooms/rm_frascos/rm_frascos.yy",},
     {"name":"rm_lua_1","order":3,"path":"rooms/rm_lua_1/rm_lua_1.yy",},

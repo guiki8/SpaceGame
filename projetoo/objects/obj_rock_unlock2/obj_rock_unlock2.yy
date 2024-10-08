@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tela_minerios",
+  "%Name":"obj_rock_unlock2",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tela_minerios",
+  "name":"obj_rock_unlock2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tela_minerios",
-    "path":"sprites/spr_tela_minerios/spr_tela_minerios.yy",
+    "name":"spr_rock_unlocked",
+    "path":"sprites/spr_rock_unlocked/spr_rock_unlocked.yy",
   },
   "spriteMaskId":null,
   "visible":true,

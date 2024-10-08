@@ -57,10 +57,10 @@
   "resources":[
     {"id":{"name":"Fonte1","path":"fonts/Fonte1/Fonte1.yy",},},
     {"id":{"name":"Fonte2","path":"fonts/Fonte2/Fonte2.yy",},},
-    {"id":{"name":"obj_botaoverde","path":"objects/obj_botaoverde/obj_botaoverde.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_foguete","path":"objects/obj_foguete/obj_foguete.yy",},},
+    {"id":{"name":"obj_fragmento_anortosito","path":"objects/obj_fragmento_anortosito/obj_fragmento_anortosito.yy",},},
     {"id":{"name":"obj_fragmento_regolito","path":"objects/obj_fragmento_regolito/obj_fragmento_regolito.yy",},},
     {"id":{"name":"obj_frascos","path":"objects/obj_frascos/obj_frascos.yy",},},
     {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
@@ -72,13 +72,17 @@
     {"id":{"name":"obj_pedra_pequena","path":"objects/obj_pedra_pequena/obj_pedra_pequena.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_rock_unlock","path":"objects/obj_rock_unlock/obj_rock_unlock.yy",},},
+    {"id":{"name":"obj_rock_unlock2","path":"objects/obj_rock_unlock2/obj_rock_unlock2.yy",},},
     {"id":{"name":"obj_rock_very_small","path":"objects/obj_rock_very_small/obj_rock_very_small.yy",},},
     {"id":{"name":"obj_slot1","path":"objects/obj_slot1/obj_slot1.yy",},},
     {"id":{"name":"obj_slot2","path":"objects/obj_slot2/obj_slot2.yy",},},
     {"id":{"name":"obj_sombra","path":"objects/obj_sombra/obj_sombra.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_tela_minerios","path":"objects/obj_tela_minerios/obj_tela_minerios.yy",},},
     {"id":{"name":"obj_troca_room","path":"objects/obj_troca_room/obj_troca_room.yy",},},
+=======
+>>>>>>> d20af8ad56bf1a91667c8090bdbf395dd57338bc
     {"id":{"name":"obj_voltar","path":"objects/obj_voltar/obj_voltar.yy",},},
     {"id":{"name":"rm_foguete","path":"rooms/rm_foguete/rm_foguete.yy",},},
     {"id":{"name":"rm_frascos","path":"rooms/rm_frascos/rm_frascos.yy",},},

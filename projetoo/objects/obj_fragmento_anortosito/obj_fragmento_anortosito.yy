@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_botaoverde",
+  "%Name":"obj_fragmento_anortosito",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_botaoverde",
+  "name":"obj_fragmento_anortosito",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_botaoverde",
-    "path":"sprites/spr_botaoverde/spr_botaoverde.yy",
+    "name":"anortosito_lunar",
+    "path":"sprites/anortosito_lunar/anortosito_lunar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -10,8 +10,8 @@
   "name":"obj_pedra_grande",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Pedras",
+    "path":"folders/Objetos/Pedras.yy",
   },
   "parentObjectId":{
     "name":"obj_colisor",

@@ -17,8 +17,8 @@
   ],
   "name":"rm_frascos",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"Foguete",
+    "path":"folders/Cenas/Foguete.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

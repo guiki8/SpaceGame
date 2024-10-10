@@ -57,6 +57,7 @@
   "resources":[
     {"id":{"name":"Fonte1","path":"fonts/Fonte1/Fonte1.yy",},},
     {"id":{"name":"Fonte2","path":"fonts/Fonte2/Fonte2.yy",},},
+    {"id":{"name":"obj_brilho","path":"objects/obj_brilho/obj_brilho.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_foguete","path":"objects/obj_foguete/obj_foguete.yy",},},
@@ -94,6 +95,7 @@
     {"id":{"name":"rock_medium","path":"sprites/rock_medium/rock_medium.yy",},},
     {"id":{"name":"rock_small","path":"sprites/rock_small/rock_small.yy",},},
     {"id":{"name":"rock_very_small","path":"sprites/rock_very_small/rock_very_small.yy",},},
+    {"id":{"name":"spr_brilho","path":"sprites/spr_brilho/spr_brilho.yy",},},
     {"id":{"name":"spr_coletar","path":"sprites/spr_coletar/spr_coletar.yy",},},
     {"id":{"name":"spr_coletavel","path":"sprites/spr_coletavel/spr_coletavel.yy",},},
     {"id":{"name":"spr_colisao","path":"sprites/spr_colisao/spr_colisao.yy",},},

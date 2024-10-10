@@ -3,4 +3,6 @@ if instance_exists(obj_fragmento_anortosito){
 }
 if global.minerios >= 1{
 	instance_create_layer(640, 220, "Instances_1", obj_fragmento_regolito)
+	global.regolito = true
+	global.anortosito =  false
 }

@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rock_very_small",
+  "%Name":"obj_brilho",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_lente2","path":"objects/obj_lente2/obj_lente2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_rock_very_small",
+  "name":"obj_brilho",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pedras",
-    "path":"folders/Objetos/Pedras.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"rock_very_small",
-    "path":"sprites/rock_very_small/rock_very_small.yy",
+    "name":"spr_brilho",
+    "path":"sprites/spr_brilho/spr_brilho.yy",
   },
   "spriteMaskId":null,
   "visible":true,

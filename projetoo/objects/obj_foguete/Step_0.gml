@@ -11,7 +11,7 @@ if instance_exists(obj_player) {
 
 #region cutscene para baixo 
 
-if (room = rm_lua and movendo_para_baixo == true) {
+if (room = rm_lua and global.movendo_para_baixo == true) {
 	
     obj_player.x = x; // Posição do player = posição do foguete
     obj_player.y = y;
@@ -41,7 +41,7 @@ if (room = rm_lua and movendo_para_baixo == true) {
             velocidade = 0; // Trava a velocidade em 0 quando a desaceleração for completa
         }
     } else {
-        movendo_para_baixo = false; // Finaliza o movimento
+        global.movendo_para_baixo = false; // Finaliza o movimento
         show_debug_message("O foguete parou de descer.");
         sprite_index = spr_foguete_parado;
 

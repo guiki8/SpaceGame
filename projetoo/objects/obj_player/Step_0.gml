@@ -82,7 +82,9 @@ if (!place_meeting(x, new_y, obj_colisor)) {
     y = new_y;
 }
 #endregion
-// Reseta as variáveis de movimento
+#region Reseta as variáveis de movimento
 move_x = 0;
 move_y = 0;
 move = false;
+#endregion
+

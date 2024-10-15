@@ -5,7 +5,11 @@ if (distance_to_object(obj_player) < 16) { // Ajuste a distância conforme neces
     draw_set_font(Fonte1);
     draw_set_color(c_white);
     draw_text(x - 128, y - 128, "Aperte E para coletar");
+
 }
+
+
+/*
 if mostrar_mensagem {
     var text_y = obj_player.y - 300
 	var text_x = obj_player.x + 650

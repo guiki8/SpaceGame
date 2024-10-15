@@ -1,3 +1,8 @@
+#region debug
+
+#endregion
+
+
 // Definindo a velocidade de movimento
 move_speed = 2;
 
@@ -19,3 +24,4 @@ last_key = "S"
 depth = -5
 
 global.minerando = false
+global.inspecionar = false

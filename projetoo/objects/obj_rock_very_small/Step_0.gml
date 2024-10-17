@@ -16,12 +16,12 @@ if timer_coletando > 30 {
 		//escrever "leve o minerio até a nave e o analise
 		global.minerios++;
 		show_debug_message("Minerios = 1")
-		mostrar_mensagem = true;
-		tempo_mensagem = 240
+		global.show_message_with_duration("Você coletou Regolito Lunar!", 240)
 		
 	} else if global.minerios == 1{
 		global.minerios = 2
 		show_debug_message("Minerios = 2")
+		global.show_message_with_duration("Você coletou Anortosito Lunar!", 240)
 	}
 	instance_destroy()
 }

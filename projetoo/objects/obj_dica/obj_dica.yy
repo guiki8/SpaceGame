@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_livro",
+  "%Name":"obj_dica",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_livro",
+  "name":"obj_dica",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utensílios",
-    "path":"folders/Objetos/Utensílios.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_livro_abrindo",
-    "path":"sprites/spr_livro_abrindo/spr_livro_abrindo.yy",
+    "name":"spr_dica",
+    "path":"sprites/spr_dica/spr_dica.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -88,3 +88,6 @@ move_y = 0;
 move = false;
 #endregion
 
+if global.minerios == 2 {
+	global.show_message_with_duration("Leve os itens para a nave", 1200)
+}

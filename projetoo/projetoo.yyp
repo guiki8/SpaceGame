@@ -106,6 +106,7 @@
     {"id":{"name":"rock_medium","path":"sprites/rock_medium/rock_medium.yy",},},
     {"id":{"name":"rock_small","path":"sprites/rock_small/rock_small.yy",},},
     {"id":{"name":"rock_very_small","path":"sprites/rock_very_small/rock_very_small.yy",},},
+    {"id":{"name":"spr_alavanca","path":"sprites/spr_alavanca/spr_alavanca.yy",},},
     {"id":{"name":"spr_brilho","path":"sprites/spr_brilho/spr_brilho.yy",},},
     {"id":{"name":"spr_coletar","path":"sprites/spr_coletar/spr_coletar.yy",},},
     {"id":{"name":"spr_coletavel","path":"sprites/spr_coletavel/spr_coletavel.yy",},},

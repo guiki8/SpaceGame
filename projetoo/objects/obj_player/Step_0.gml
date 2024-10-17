@@ -96,6 +96,7 @@ if variavel_test = false and global.movendo_para_baixo = false {
 	global.show_message_with_duration("Como primeiro objetivo tente minerar algumas pedras.", 240)
 }
 
-if global.minerios == 2 {
-	global.show_message_with_duration("Ótimo, agora leve os itens para a nave", 60)
+if global.minerios == 2 and global.entrou_no_foguete = false {
+	global.show_message_with_duration("Ótimo, agora leve os itens para a nave", 240)
+
 }

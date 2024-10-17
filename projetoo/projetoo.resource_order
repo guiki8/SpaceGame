@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_alavanca","order":1,"path":"sprites/spr_alavanca/spr_alavanca.yy",},
+  ],
 }

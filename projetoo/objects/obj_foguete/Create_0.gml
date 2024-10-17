@@ -26,4 +26,6 @@ if (room = rm_start)
 	image_angle =-90
 }
 
+global.entrou_no_foguete = false
+
 texto = "Bem-vindo à Lua, este é um satélite natural que pertence à Terra, é principalmente composto por rochas basálticas e anortosito, cuidado ao explorar seu lado oculto!";

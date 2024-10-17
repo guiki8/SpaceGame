@@ -57,5 +57,6 @@ if (room = rm_lua and global.movendo_para_baixo == true) {
 #region entrar
 if place_meeting(x+10, y+10, obj_player) and keyboard_check(ord("E")) {
     room_goto(rm_foguete);
+	global.minerios = 3
 }
 #endregion

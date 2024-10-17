@@ -31,11 +31,11 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"backgrounds","folderPath":"folders/Sprites/backgrounds.yy","name":"backgrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"moon","folderPath":"folders/Sprites/backgrounds/moon.yy","name":"moon","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"buttons","folderPath":"folders/Sprites/buttons.yy","name":"buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"foguete","folderPath":"folders/Sprites/foguete.yy","name":"foguete","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"decolando","folderPath":"folders/Sprites/foguete/decolando.yy","name":"decolando","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"pousando","folderPath":"folders/Sprites/foguete/pousando.yy","name":"pousando","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"voando","folderPath":"folders/Sprites/foguete/voando.yy","name":"voando","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"buttons","folderPath":"folders/Sprites/buttons.yy","name":"buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"hud_foguete","folderPath":"folders/Sprites/hud_foguete.yy","name":"hud_foguete","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"hud_livro","folderPath":"folders/Sprites/hud_foguete/hud_livro.yy","name":"hud_livro","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"hud_microscopio","folderPath":"folders/Sprites/hud_foguete/hud_microscopio.yy","name":"hud_microscopio","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -53,7 +53,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"projetoo",
   "resources":[

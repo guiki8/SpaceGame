@@ -12,18 +12,22 @@ move_y = 0;
 if (_dir) {
     move_x += 1;
     move = true;
+	variavel_test = true
 }
 if (_esq) {
     move_x -= 1;
     move = true;
+	variavel_test = true
 }
 if (_baixo) {
     move_y += 1;
     move = true;
+	variavel_test = true
 }
 if (_cima) {
     move_y -= 1;
     move = true;
+	variavel_test = true
 }
 #endregion
 #region Mudança dos sprites
@@ -88,6 +92,10 @@ move_y = 0;
 move = false;
 #endregion
 
+if variavel_test = false and global.movendo_para_baixo = false {
+	global.show_message_with_duration("Como primeiro objetivo tente minerar algumas pedras.", 240)
+}
+
 if global.minerios == 2 {
-	global.show_message_with_duration("Leve os itens para a nave", 1200)
+	global.show_message_with_duration("Ótimo, agora leve os itens para a nave", 60)
 }

@@ -9,8 +9,8 @@
   "name":"obj_brilho",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Utensílios",
+    "path":"folders/Objetos/Utensílios.yy",
   },
   "parentObjectId":null,
   "persistent":false,

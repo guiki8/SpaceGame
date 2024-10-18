@@ -38,8 +38,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"pousando",
-    "path":"folders/Sprites/foguete/pousando.yy",
+    "name":"foguete",
+    "path":"folders/Sprites/foguete.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -29,3 +29,10 @@ if (room = rm_start)
 global.entrou_no_foguete = false
 
 texto = "Bem-vindo à Lua, este é um satélite natural que pertence à Terra, é principalmente composto por rochas basálticas e anortosito, cuidado ao explorar seu lado oculto!";
+
+reset = false
+duracao_movimento_cima = 170; // duração maior para o movimento para cima (~5 segundos a 60 fps)
+tempo_movimento_cima = 0; // contador para o tempo de movimento
+tempo_restante2 = 0;
+velocidade2 = 3;
+aceleracao = velocidade2 / 600; // aceleração mais lenta, permitindo que o foguete se mova por mais tempo

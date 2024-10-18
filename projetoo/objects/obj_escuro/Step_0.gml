@@ -1,2 +1,2 @@
-x = obj_player.x
-y = obj_player.y
+x = obj_player.x -25
+y = obj_player.y -130

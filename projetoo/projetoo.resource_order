@@ -1,6 +1,12 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_alavanca","order":1,"path":"objects/obj_alavanca/obj_alavanca.yy",},
+    {"name":"obj_bandeira","order":1,"path":"objects/obj_bandeira/obj_bandeira.yy",},
     {"name":"spr_alavanca","order":1,"path":"sprites/spr_alavanca/spr_alavanca.yy",},
+    {"name":"spr_bandeira","order":1,"path":"sprites/spr_bandeira/spr_bandeira.yy",},
+    {"name":"spr_foguete_decolando","order":6,"path":"sprites/spr_foguete_decolando/spr_foguete_decolando.yy",},
+    {"name":"spr_foguete_pousando","order":4,"path":"sprites/spr_foguete_pousando/spr_foguete_pousando.yy",},
+    {"name":"spr_foguete_voando","order":5,"path":"sprites/spr_foguete_voando/spr_foguete_voando.yy",},
   ],
 }

@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"voando",
-    "path":"folders/Sprites/foguete/voando.yy",
+    "name":"foguete",
+    "path":"folders/Sprites/foguete.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

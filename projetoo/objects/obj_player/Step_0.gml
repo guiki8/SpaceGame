@@ -97,6 +97,6 @@ if variavel_test = false and global.movendo_para_baixo = false {
 }
 
 if global.minerios == 2 and global.entrou_no_foguete = false {
-	global.show_message_with_duration("Ótimo, agora leve os itens para a nave", 240)
+	global.show_message_with_duration("Leve os minérios para a nave", 240)
 
 }

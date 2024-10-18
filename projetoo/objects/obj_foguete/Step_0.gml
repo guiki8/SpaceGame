@@ -60,3 +60,39 @@ if place_meeting(x+10, y+10, obj_player) and keyboard_check(ord("E")) {
 	global.entrou_no_foguete = true
 }
 #endregion
+
+if global.final {
+    if reset = false {
+        x = 160;
+        y = 1560;
+        reset = true;
+    }
+    
+    obj_player.x = x; // Posição do player = posição do foguete
+    obj_player.y = y;
+    
+    obj_player.image_alpha = 0; // Player fica invisível
+    obj_sombra.image_alpha = 0; // Sombra fica invisível
+    
+    // Calcula o tempo restante do movimento para cima
+    tempo_restante2 = duracao_movimento_cima - tempo_movimento_cima;
+
+    // Se faltam menos de 2 segundos (120 frames) para a decolagem, muda para spr_foguete_voando
+    if (tempo_restante2 <= 60) {
+        sprite_index = spr_foguete_voando;
+    } else {
+        sprite_index = spr_foguete_decolando;
+    }
+
+    tempo_movimento_cima += 1;
+
+    // Move o objeto para cima enquanto a duração do movimento não é atingida
+    if (tempo_movimento_cima <= duracao_movimento_cima) {
+        y -= velocidade2; // Move o objeto para cima
+        velocidade2 += aceleracao; // Acelera a velocidade progressivamente
+    }
+    
+    if tempo_restante2 == 0 {
+        room_goto(rm_start);
+    }
+}

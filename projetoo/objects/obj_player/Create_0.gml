@@ -1,7 +1,10 @@
 #region debug
 
 #endregion
-
+_dir = keyboard_check(ord("D")) || keyboard_check(vk_right);
+_esq = keyboard_check(ord("A")) || keyboard_check(vk_left);
+_baixo = keyboard_check(ord("S")) || keyboard_check(vk_down);
+_cima = keyboard_check(ord("W")) || keyboard_check(vk_up);
 
 // Definindo a velocidade de movimento
 move_speed = 2;

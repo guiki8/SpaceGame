@@ -11,8 +11,8 @@
   "name":"obj_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Huds",
+    "path":"folders/Objetos/Huds.yy",
   },
   "parentObjectId":null,
   "persistent":false,

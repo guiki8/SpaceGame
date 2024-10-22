@@ -10,8 +10,8 @@
   "name":"obj_prox_pag",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utensílios",
-    "path":"folders/Objetos/Utensílios.yy",
+    "name":"Huds",
+    "path":"folders/Objetos/Huds.yy",
   },
   "parentObjectId":null,
   "persistent":false,

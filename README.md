@@ -47,10 +47,27 @@ I  Nome            I GitHub                                                     
 
  ## Passos para Aplicação do Projeto
 
- 1.**Instalação**: Baixar o arquivo disponível no repositório [https://github.com/guiki8/SpaceGame/]
- 2.**Executar**: Execute o arquivo baixado na sua pasta de downloads
+ 1.**Instalação**: Baixar o arquivo disponível no repositório [https://github.com/guiki8/SpaceGame/]<br>
+ 2.**Executar**: Execute o arquivo baixado na sua pasta de downloads<br>
  3.**Jogue**
 
  ## Histórico do Projeto
 
- O projeto ainda está em desenvolvimento, sua concepção inicial foi 
+ O projeto ainda está em desenvolvimento, sua concepção inicial foi no final de agosto em 27/08/2024, então o grupo seguiu seu desenvolvimento como o protótipo e as partes mais essenciais do projeto feitas em 17/09/2024, entrando na segunda fase de desenvolvimento em 8/10/2024, no atual momento, 22/10/2024, o grupo ainda está desenvolvido mais áreas do projeto.
+
+ ## Fotos e Prints
+
+
+ <img width="101" alt="character" src="https://github.com/user-attachments/assets/c54b540b-cd6c-4ff4-9485-92e3ce53db2d">
+<img width="235" alt="space" src="https://github.com/user-attachments/assets/e5705160-1c39-4e53-8414-92e00573aac4">
+<img width="231" alt="space2" src="https://github.com/user-attachments/assets/1ebf0eec-7976-4eb1-b5f9-d2259c1af043">
+<img width="233" alt="marte" src="https://github.com/user-attachments/assets/78fdc6ca-2852-4b93-ac8e-68e224c78b29">
+
+## Conclusão
+
+O projeto **Explorando os Cosmos** tem se provado um método promissor e eficaz para trazer o interesse do público ao tópico 
+astronomia, nas feiras no qual o projeto já foi apresentado o projeto teve um feedback positivo e conseguiu atrair um público de diversas idades, além disso o grupo acredita que o projeto ainda pode ser aprimorada e se tornar mais cutomizável para ser utilizado em outras áreas do conhecimento.
+
+## Contato da Equipe
+
+Quaisquer dúvidas ou contribuições ao desenvolvimento do projeto podem ser enviadas aos emails dos membros do grupo citados na parte de integrantes.

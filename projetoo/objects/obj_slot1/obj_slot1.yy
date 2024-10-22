@@ -12,8 +12,8 @@
   "name":"obj_slot1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Huds",
-    "path":"folders/Objetos/Huds.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

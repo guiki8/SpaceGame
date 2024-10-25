@@ -7,9 +7,9 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_48D8501A","path":"rooms/rm_frascos/rm_frascos.yy",},
-    {"name":"inst_2FD99A24","path":"rooms/rm_frascos/rm_frascos.yy",},
-    {"name":"inst_22512C1A","path":"rooms/rm_frascos/rm_frascos.yy",},
     {"name":"inst_76C6A3FF","path":"rooms/rm_frascos/rm_frascos.yy",},
+    {"name":"inst_22512C1A","path":"rooms/rm_frascos/rm_frascos.yy",},
+    {"name":"inst_2FD99A24","path":"rooms/rm_frascos/rm_frascos.yy",},
   ],
   "isDnd":false,
   "layers":[

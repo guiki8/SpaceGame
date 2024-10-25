@@ -1,4 +1,4 @@
-if global.utilizando = true and global.pode_pegar = true //se apertar enquanto estiver segurando a pinça
+if global.utilizando = true and global.pode_pegar = true and sprite_index = spr_po1   //se apertar enquanto estiver segurando a pinça
 {
 	global.segurando = true
 	instance_destroy()

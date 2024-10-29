@@ -11,8 +11,8 @@
   "name":"obj_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"botões_e_huds",
+    "path":"folders/Objetos/botões_e_huds.yy",
   },
   "parentObjectId":null,
   "persistent":false,

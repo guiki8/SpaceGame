@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"hud_microscopio",
+    "path":"folders/Sprites/hud_foguete/hud_microscopio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

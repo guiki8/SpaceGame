@@ -21,6 +21,7 @@
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy","name":"Linhas do tempo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"botões_e_huds","folderPath":"folders/Objetos/botões_e_huds.yy","name":"botões_e_huds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pedras","folderPath":"folders/Objetos/Pedras.yy","name":"Pedras","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Utensílios","folderPath":"folders/Objetos/Utensílios.yy","name":"Utensílios","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"hud_frasco","folderPath":"folders/Objetos/Utensílios/hud_frasco.yy","name":"hud_frasco","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,7 +53,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"projetoo",
   "resources":[
@@ -76,7 +77,6 @@
     {"id":{"name":"obj_lente2","path":"objects/obj_lente2/obj_lente2.yy",},},
     {"id":{"name":"obj_livro_mini","path":"objects/obj_livro_mini/obj_livro_mini.yy",},},
     {"id":{"name":"obj_livro","path":"objects/obj_livro/obj_livro.yy",},},
-    {"id":{"name":"obj_lua_chao","path":"objects/obj_lua_chao/obj_lua_chao.yy",},},
     {"id":{"name":"obj_microscopio","path":"objects/obj_microscopio/obj_microscopio.yy",},},
     {"id":{"name":"obj_notificacao","path":"objects/obj_notificacao/obj_notificacao.yy",},},
     {"id":{"name":"obj_pedra_grande","path":"objects/obj_pedra_grande/obj_pedra_grande.yy",},},

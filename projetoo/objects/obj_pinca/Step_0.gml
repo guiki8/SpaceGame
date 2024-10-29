@@ -16,7 +16,7 @@ if global.utilizando = true //se for ativado, vai seguir o mouse
 		global.pode_pegar = false
 	}
 }
-/*if sprite_index = spr_pinca_utilizando2
+
 {
 
 }

@@ -1,4 +1,9 @@
-if global.segurando = true and mouse_check_button_pressed(mb_left) {
-	show_debug_message("AAAAAA")
-	obj_pinca.sprite_index = spr_pinca
+if global.segurando_regolito {
+	global.segurando_regolito = false
+	global.regolito_no_becker = true
+}
+
+if global.segurando_anortosito {
+	global.segurando_anortosito = false
+	global.anortosito_no_becker = true
 }

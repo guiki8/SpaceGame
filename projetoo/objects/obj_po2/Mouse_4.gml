@@ -1,6 +1,4 @@
-if global.utilizando = true and global.pode_pegar = true  //se apertar enquanto estiver segurando a pinça
-{
-	instance_destroy()
-	global.segurando = true
-	instance_create_layer(x,y,"Instances",obj_vidro_vazio2)
+if global.utilizando = true and global.pode_pegar = true and image_index = 0 {  //se apertar enquanto estiver segurando a pinça
+	global.segurando_anortosito = true
+	image_index = 1
 }

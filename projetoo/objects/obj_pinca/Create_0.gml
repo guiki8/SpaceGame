@@ -1,3 +1,5 @@
 global.utilizando = false
-global.segurando = false
-global.pode_pegar = true
+global.segurando_regolito = false
+global.segurando_anortosito = false
+global.pode_pegar = false
+image_speed = 0

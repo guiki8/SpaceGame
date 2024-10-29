@@ -1,5 +1,3 @@
-if global.anortosito_inpecionado = true //se ja inspecionou, muda o sprite
-{
-	sprite_index = spr_po2
-	
+if global.anortosito_inpecionado and !global.anortosito_no_becker and !global.segurando_anortosito{
+	image_index = 0
 }

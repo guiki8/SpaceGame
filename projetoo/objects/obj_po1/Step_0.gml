@@ -1,5 +1,3 @@
-if global.regolito_inpecionado = true //se ja inspecionou, muda o sprite
-{
-	sprite_index = spr_po1
-	
+if global.regolito_inpecionado and !global.regolito_no_becker and !global.segurando_regolito{
+	image_index = 0
 }

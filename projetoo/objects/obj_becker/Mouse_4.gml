@@ -7,9 +7,7 @@ if global.segurando_regolito {
 }
 
 if global.regolito_no_becker = true {
-	image_angle -= 15
-	image_angle += 30
-	image_angle -= 15
+	evento = true
 }
 
 if global.segurando_anortosito {

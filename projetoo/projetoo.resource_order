@@ -48,6 +48,8 @@
     {"name":"rm_microscopio","order":3,"path":"rooms/rm_microscopio/rm_microscopio.yy",},
     {"name":"spr_alavanca","order":1,"path":"sprites/spr_alavanca/spr_alavanca.yy",},
     {"name":"spr_bandeira","order":13,"path":"sprites/spr_bandeira/spr_bandeira.yy",},
+    {"name":"spr_becker_anortosito","order":14,"path":"sprites/spr_becker_anortosito/spr_becker_anortosito.yy",},
+    {"name":"spr_becker_regolito","order":15,"path":"sprites/spr_becker_regolito/spr_becker_regolito.yy",},
     {"name":"spr_becker","order":5,"path":"sprites/spr_becker/spr_becker.yy",},
     {"name":"spr_brilho","order":7,"path":"sprites/spr_brilho/spr_brilho.yy",},
     {"name":"spr_coletavel","order":3,"path":"sprites/spr_coletavel/spr_coletavel.yy",},

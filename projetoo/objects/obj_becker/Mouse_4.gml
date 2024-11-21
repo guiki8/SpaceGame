@@ -17,3 +17,11 @@ if global.segurando_anortosito {
 	obj_pinca.x = 1506
 	obj_pinca. y = 160
 }
+
+if global.regolito_no_becker {
+click_R += 1
+}
+
+if global.anortosito_no_becker {
+click_A += 1
+}

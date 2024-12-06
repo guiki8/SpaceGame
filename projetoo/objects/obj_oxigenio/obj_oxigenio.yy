@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_voltar",
+  "%Name":"obj_oxigenio",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_voltar",
+  "name":"obj_oxigenio",
   "overriddenProperties":[],
   "parent":{
-    "name":"botões_e_huds",
-    "path":"folders/Objetos/botões_e_huds.yy",
+    "name":"hud_frasco",
+    "path":"folders/Objetos/Utensílios/hud_frasco.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_voltar",
-    "path":"sprites/spr_voltar/spr_voltar.yy",
+    "name":"spr_oxigenio",
+    "path":"sprites/spr_oxigenio/spr_oxigenio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

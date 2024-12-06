@@ -18,10 +18,16 @@ global.draw_message = function() {
         var text_y = camera_get_view_y(view_camera[0]) + 50;
         var text_x = camera_get_view_x(view_camera[0]) + 800;
         var offset = 15;
-        
+		
+		if room = rm_lua or room = rm_lua_1{
+			var _rectangle_height = string_height_ext(global.message, -1, 400)
+		} else{
+			var _rectangle_height = string_height_ext(global.message, -1, 400) / 2
+		}
+		
         draw_set_alpha(0.7);
         draw_set_color(c_black);
-        draw_rectangle(text_x - offset - 70, text_y - offset, text_x + offset + 400, text_y + offset + string_height_ext(global.message, -1, 400), false);
+        draw_rectangle(text_x - offset - 70, text_y - offset, text_x + offset + 400, text_y + offset + _rectangle_height, false);
         
         draw_set_alpha(1);
         draw_set_font(Fonte1);

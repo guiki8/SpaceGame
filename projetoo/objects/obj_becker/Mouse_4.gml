@@ -6,7 +6,9 @@ if global.segurando_regolito {
 	obj_pinca. y = 160
 }
 
-if global.regolito_no_becker = true {
+if global.regolito_no_becker{
+	evento = true
+} else if global.anortosito_no_becker{
 	evento = true
 }
 
@@ -18,10 +20,18 @@ if global.segurando_anortosito {
 	obj_pinca. y = 160
 }
 
-if global.regolito_no_becker {
-click_R += 1
+if global.regolito_no_becker and global.click_R < 6{
+global.click_R += 1
 }
 
-if global.anortosito_no_becker {
-click_A += 1
+if global.anortosito_no_becker and global.click_A < 6{
+global.click_A += 1
+}
+
+if global.click_R == 6{
+	global.segurando_mistura_regolito = true
+}
+
+if global.click_A == 5{
+	global.segurando_mistura_anortosito = true
 }

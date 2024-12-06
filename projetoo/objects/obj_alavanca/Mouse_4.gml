@@ -1,4 +1,4 @@
-if global.regolito_inpecionado and global.anortosito_inpecionado{
+if global.oxigenio and global.combustivel{
 	image_index = 1
 	global.final = true
 }
